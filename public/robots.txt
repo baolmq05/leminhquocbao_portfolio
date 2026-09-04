@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-# Portfolio of Le Minh Quoc Bao - Backend Software Engineer
+# Portfolio of Le Minh Quoc Bao - Backend Development
 Sitemap: https://leminhquocbao.dev/sitemap.xml

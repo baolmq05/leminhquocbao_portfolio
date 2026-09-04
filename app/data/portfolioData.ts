@@ -38,11 +38,11 @@ export interface ContactLink {
 // ============================================
 export const personalInfo = {
   name: 'Le Minh Quoc Bao',
-  title: 'Backend Software Engineer',
+  title: 'Backend Development',
   level: 'Fresher',
   bio: 'Specializing in high-throughput backend architecture, resilient relational databases, and clean decoupled API designs. Focused on building production-grade services that scale cleanly.',
   fullBio:
-    'I am a backend software engineer passionate about constructing scalable web systems powered by Laravel and MySQL. My development ethos revolves around strict relational schema integrity, predictable REST API contracts, and performant backend execution. I enjoy turning complex enterprise operational rules into clean, maintainable micro-architectures.',
+    'I am a Backend Development passionate about constructing scalable web systems powered by Laravel and MySQL. My development ethos revolves around strict relational schema integrity, predictable REST API contracts, and performant backend execution. I enjoy turning complex enterprise operational rules into clean, maintainable micro-architectures.',
   location: 'Can Tho City, VN',
   availability: 'Available for Backend Roles',
   email: 'baolmq05@gmail.com',
@@ -51,7 +51,7 @@ export const personalInfo = {
   facebookUrl: 'https://www.facebook.com/bao.leminh.3348/',
   facebookHandle: 'facebook.com/bao.leminh.3348',
   cvUrl: '/files/Lê Minh Quốc Bảo - CV.pdf',
-  stack: 'Laravel / PG',
+  stack: 'Laravel / MySQL',
   latency: '<24ms latency',
   heroTags: 'Laravel • PHP • MySQL • RESTful API',
   status: 'ready_to_commit',
@@ -66,13 +66,13 @@ export const education = [
     id: 'school',
     label: 'EDUCATION',
     title: 'FPT Polytechnic',
-    subtitle: 'Software Engineering',
+    subtitle: 'Web Development',
     highlight: false,
   },
   {
     id: 'gpa',
     label: 'ACADEMIC EXCELLENCE',
-    title: 'GPA 3.79 / 4.0',
+    title: 'GPA 3.92 / 4.0',
     subtitle: 'Highest Honor Graduate',
     highlight: true,
   },
@@ -134,9 +134,9 @@ export const skills: SkillCategory[] = [
 export const projects: Project[] = [
   {
     id: 'drivio',
-    title: 'DRIVIO',
-    role: 'Backend Developer',
-    shortDescription: 'Self-drive car rental marketplace built with Laravel and MySQL.',
+    title: 'Drivio - Self-Drive Car Rental Marketplace',
+    role: 'Fullstack Developer',
+    shortDescription: 'Full-stack self-drive car rental marketplace with web and mobile applications.',
     tag: 'Graduation Project',
     tagStyle: 'primary',
     year: '2026',
@@ -148,7 +148,7 @@ export const projects: Project[] = [
   },
   {
     id: 'room-rental',
-    title: 'Room Rental Listing Website',
+    title: 'PhongTro123 - Room Rental Listing Website',
     role: 'Fullstack Developer',
     shortDescription: 'Room rental platform with Goong Maps integration and location-based search.',
     tag: 'Geo-Platform',
@@ -162,7 +162,7 @@ export const projects: Project[] = [
   },
   {
     id: 'flower-ecommerce',
-    title: 'Flower E-commerce Website',
+    title: 'FloSun - Flower E-commerce Website',
     role: 'Fullstack Developer',
     shortDescription: 'E-commerce website with shopping cart, product management, and payment integration.',
     tag: 'Commerce',

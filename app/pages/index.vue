@@ -15,18 +15,18 @@ import { personalInfo } from '~/data/portfolioData'
 
 // SEO Meta Tags
 useSeoMeta({
-  title: 'Le Minh Quoc Bao — Backend Software Engineer',
+  title: 'Le Minh Quoc Bao — Backend Development',
   description:
-    'Le Minh Quoc Bao – Backend Software Engineer specializing in Laravel, PHP, MySQL and RESTful API design. Fresher based in Can Tho City, Vietnam.',
-  ogTitle: 'Le Minh Quoc Bao — Backend Software Engineer',
+    'Le Minh Quoc Bao – Backend Development specializing in Laravel, PHP, MySQL and RESTful API design. Fresher based in Can Tho City, Vietnam.',
+  ogTitle: 'Le Minh Quoc Bao — Backend Development',
   ogDescription:
-    'Backend Software Engineer specializing in Laravel, PHP, MySQL and RESTful API design. GPA 3.93 – FPT Polytechnic Highest Honor Graduate.',
+    'Backend Development specializing in Laravel, PHP, MySQL and RESTful API design. GPA 3.93 – FPT Polytechnic Highest Honor Graduate.',
   ogType: 'website',
   ogLocale: 'en_US',
   twitterCard: 'summary_large_image',
-  twitterTitle: 'Le Minh Quoc Bao — Backend Software Engineer',
+  twitterTitle: 'Le Minh Quoc Bao — Backend Development',
   twitterDescription:
-    'Backend Software Engineer specializing in Laravel, PHP, MySQL and RESTful APIs. Based in Can Tho City.',
+    'Backend Development specializing in Laravel, PHP, MySQL and RESTful APIs. Based in Can Tho City.',
 })
 
 // Schema.org JSON-LD Structured Data

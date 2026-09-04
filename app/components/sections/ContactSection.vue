@@ -4,13 +4,8 @@
       <!-- Heading -->
       <h2 id="contact-heading"
         class="font-headline-lg text-headline-lg font-semibold text-on-surface tracking-tight mb-2">
-        Initiate Contact
+        Contact Me
       </h2>
-      <p class="font-body-md text-body-md text-secondary mb-8">
-        Currently open to backend software engineering opportunities at CellphoneS and tech enterprises in Can Tho
-        City. Feel free to inspect code or schedule an interview.
-      </p>
-
       <!-- Contact Card -->
       <div class="p-6 rounded-2xl bg-surface-container-lowest border border-surface-variant/90 shadow-sm space-y-3">
         <!-- Email Row -->
