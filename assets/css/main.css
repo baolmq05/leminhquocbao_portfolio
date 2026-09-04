@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================
+   GLOBAL BASE STYLES
+   ============================================ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  @apply bg-background text-on-surface antialiased;
+  font-family: 'Geist', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+}
+
+/* ============================================
+   DOT GRID BACKGROUND PATTERN
+   ============================================ */
+.dot-grid {
+  background-image: radial-gradient(#d3e4fe 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* ============================================
+   MATERIAL SYMBOLS
+   ============================================ */
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 20;
+  font-size: 18px;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+/* ============================================
+   CUSTOM SCROLLBAR
+   ============================================ */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-surface-container-low;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-outline-variant rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-outline;
+}
+
+/* ============================================
+   SELECTION
+   ============================================ */
+::selection {
+  @apply bg-primary-container text-on-primary-container;
+}
+
+/* ============================================
+   FOCUS RING
+   ============================================ */
+:focus-visible {
+  @apply outline-none ring-2 ring-primary-container ring-offset-2 ring-offset-background;
+}
+
+/* ============================================
+   TYPOGRAPHY HELPERS
+   ============================================ */
+.font-geist {
+  font-family: 'Geist', sans-serif;
+}
+.font-jetbrains {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* ============================================
+   ANIMATIONS
+   ============================================ */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes ping-slow {
+  75%,
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.animate-ping-slow {
+  animation: ping-slow 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+/* ============================================
+   SECTION TRANSITIONS
+   ============================================ */
+.section-animate {
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+/* ============================================
+   SKILL BADGE HOVER
+   ============================================ */
+.skill-badge {
+  @apply px-2 py-0.5 rounded bg-surface-container border border-surface-variant 
+         font-jetbrains text-[11px] tracking-wide font-medium text-on-surface
+         transition-all duration-150 hover:border-outline-variant hover:bg-surface-container-high;
+}
+
+/* ============================================
+   PROJECT CARD
+   ============================================ */
+.project-card {
+  @apply p-6 md:p-8 rounded-2xl bg-surface-container-lowest border border-surface-variant/90 
+         shadow-sm hover:border-outline-variant transition-all duration-200;
+}
