@@ -11,11 +11,6 @@
           <span class="material-symbols-outlined text-primary-container">terminal</span>
           <span>Le Minh Quoc Bao</span>
         </a>
-        <span
-          class="hidden sm:inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full border border-surface-variant bg-surface-container-low text-secondary font-label-mono text-label-mono">
-          <span class="w-1.5 h-1.5 rounded-full bg-primary-container animate-pulse" />
-          backend engineer
-        </span>
       </div>
 
       <!-- Desktop Nav -->

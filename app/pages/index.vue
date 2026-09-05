@@ -15,18 +15,18 @@ import { personalInfo } from '~/data/portfolioData'
 
 // SEO Meta Tags
 useSeoMeta({
-  title: 'Le Minh Quoc Bao — Backend Development',
+  title: 'Le Minh Quoc Bao — Backend Developer',
   description:
-    'Le Minh Quoc Bao – Backend Development specializing in Laravel, PHP, MySQL and RESTful API design. Fresher based in Can Tho City, Vietnam.',
-  ogTitle: 'Le Minh Quoc Bao — Backend Development',
+    'Le Minh Quoc Bao – Backend Developer specializing in Laravel, PHP, MySQL and RESTful API design. Fresher based in Can Tho City, Vietnam.',
+  ogTitle: 'Le Minh Quoc Bao — Backend Developer',
   ogDescription:
-    'Backend Development specializing in Laravel, PHP, MySQL and RESTful API design. GPA 3.93 – FPT Polytechnic Highest Honor Graduate.',
+    'Backend Developer specializing in Laravel, PHP, MySQL and RESTful API design. GPA 3.93 – FPT Polytechnic Highest Honor Graduate.',
   ogType: 'website',
   ogLocale: 'en_US',
   twitterCard: 'summary_large_image',
-  twitterTitle: 'Le Minh Quoc Bao — Backend Development',
+  twitterTitle: 'Le Minh Quoc Bao — Backend Developer',
   twitterDescription:
-    'Backend Development specializing in Laravel, PHP, MySQL and RESTful APIs. Based in Can Tho City.',
+    'Backend Developer specializing in Laravel, PHP, MySQL and RESTful APIs. Based in Can Tho City.',
 })
 
 // Schema.org JSON-LD Structured Data
@@ -63,7 +63,7 @@ useHead({
           'Vue.js',
           'Nuxt.js',
           'TypeScript',
-          'Backend Engineering',
+          'Backend Developer',
         ],
       }),
     },

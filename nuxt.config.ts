@@ -28,34 +28,34 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1.0',
-      title: 'Le Minh Quoc Bao — Backend Development',
+      title: 'Le Minh Quoc Bao — Backend Developer',
       meta: [
         {
           name: 'description',
           content:
-            'Le Minh Quoc Bao – Backend Development specializing in Laravel, PHP, MySQL and RESTful API design. Fresher based in Can Tho City.',
+            'Le Minh Quoc Bao – Backend Developer specializing in Laravel, PHP, MySQL and RESTful API design. Fresher based in Can Tho City.',
         },
         { name: 'theme-color', content: '#b80035' },
         { property: 'og:type', content: 'website' },
         {
           property: 'og:title',
-          content: 'Le Minh Quoc Bao — Backend Development',
+          content: 'Le Minh Quoc Bao — Backend Developer',
         },
         {
           property: 'og:description',
           content:
-            'Backend Development specializing in Laravel, PHP, MySQL and RESTful API design. Fresher based in Can Tho City.',
+            'Backend Developer specializing in Laravel, PHP, MySQL and RESTful API design. Fresher based in Can Tho City.',
         },
         { property: 'og:locale', content: 'en_US' },
         { name: 'twitter:card', content: 'summary_large_image' },
         {
           name: 'twitter:title',
-          content: 'Le Minh Quoc Bao — Backend Development',
+          content: 'Le Minh Quoc Bao — Backend Developer',
         },
         {
           name: 'twitter:description',
           content:
-            'Backend Development specializing in Laravel, PHP, MySQL and RESTful API design.',
+            'Backend Developer specializing in Laravel, PHP, MySQL and RESTful API design.',
         },
         { name: 'robots', content: 'index, follow' },
         { name: 'author', content: 'Le Minh Quoc Bao' },

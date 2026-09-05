@@ -38,11 +38,11 @@ export interface ContactLink {
 // ============================================
 export const personalInfo = {
   name: 'Le Minh Quoc Bao',
-  title: 'Backend Development',
+  title: 'Backend Developer',
   level: 'Fresher',
   bio: 'Specializing in high-throughput backend architecture, resilient relational databases, and clean decoupled API designs. Focused on building production-grade services that scale cleanly.',
   fullBio:
-    'I am a Backend Development passionate about constructing scalable web systems powered by Laravel and MySQL. My development ethos revolves around strict relational schema integrity, predictable REST API contracts, and performant backend execution. I enjoy turning complex enterprise operational rules into clean, maintainable micro-architectures.',
+    'I am a Backend Developer passionate about constructing scalable web systems powered by Laravel and MySQL. My development ethos revolves around strict relational schema integrity, predictable REST API contracts, and performant backend execution. I enjoy turning complex enterprise operational rules into clean, maintainable micro-architectures.',
   location: 'Can Tho City, VN',
   availability: 'Available for Backend Roles',
   email: 'baolmq05@gmail.com',
@@ -50,7 +50,7 @@ export const personalInfo = {
   githubHandle: 'github.com/baolmq05',
   facebookUrl: 'https://www.facebook.com/bao.leminh.3348/',
   facebookHandle: 'facebook.com/bao.leminh.3348',
-  cvUrl: '/files/Lê Minh Quốc Bảo - CV.pdf',
+  cvUrl: '/files/Le-Minh-Quoc-Bao-CV.pdf',
   stack: 'Laravel / MySQL',
   latency: '<24ms latency',
   heroTags: 'Laravel • PHP • MySQL • RESTful API',
@@ -91,7 +91,7 @@ export const education = [
 export const skills: SkillCategory[] = [
   {
     id: 'backend',
-    title: 'Backend Engineering',
+    title: 'Backend Developer',
     icon: 'terminal',
     iconColor: 'text-primary-container',
     tags: ['Laravel', 'PHP', 'RESTful API', 'JWT Auth', 'Laravel Reverb', 'Filament'],
